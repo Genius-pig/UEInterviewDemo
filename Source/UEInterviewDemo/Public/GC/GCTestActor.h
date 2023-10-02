@@ -33,8 +33,8 @@ public:
 
 	void CreateObjects();
 	void PrintObjectPointerState() const;
-	void UseRawObject();
+	void UseRawObject() const;
 
-	void ForceGarbageCollectionOfProperties();
+	void ForceGarbageCollectionOfProperties() const;
 	
 };
